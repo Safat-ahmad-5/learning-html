@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+
+<body>
+    <form action="backend.php">
+    <div>
+        First Name:<input type="text" name="my first name" id="name">
+    </div>
+    <br>
+    <div>
+        Last Name :<input type="text" name="my last name" id="name">
+    </div>
+    <br>
+    <div>
+        Date of Birth:<input type="datetime-local" name="date of birth" id="datetime-local">
+    </div>
+    <br>
+    <div>
+        Gender:male<input type="radio" name="my gender"> female<input type="radio" name="my gender"> other<input
+            type="radio" name="my gender">
+    </div>
+    <br>
+    <div>
+        E-mail:<input type="email" name="my email" id="email">
+    </div>
+    <br>
+    <div>
+        Number: <input type="text" name="my number" id="number">
+    </div>
+    <br>
+    <div>
+        Password:<input type="password" name=" password1" id="password" minlength="4">
+    </div>
+    <br>
+    <div>
+        confirm password:<input type=" password" name="password2" id=" confirm password">
+    </div>
+    <br>
+    <div>
+        i agree to the terms of use:<input type="radio" name="i  agree to the terms of use">
+    </div>
+    <br>
+    <div>
+        country:<select name="country" id="country">
+            <option value="india"> india</option>
+            <option value="china"> china</option>
+            <option value="pak">pakistan</option>
+        </select>
+    </div>
+    <br>
+    <div>
+         submit: <input type="submit" value="submit now">
+            <input type="reset" value="reset now">
+    </div>
+    </form>
+</body>
+
+</html>
