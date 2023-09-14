@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tfoot elements</title>
+    <style>
+        table,th,td{
+            border: 2px solid rgb(1, 2, 3);
+            font-style: italic;
+            font-size: large;
+            border-collapse:collapse ;
+            
+        }
+        tr:nth-child(even) {background-color:red;}
+    </style>
+</head>
+<body>
+    <h1>The thead,tbody and tfoot elements</h1>
+
+    <table>
+        <thead>
+            <tr style="background-color: blue;">
+                <th>month</th>
+                <th>days</th>
+                
+            </tr>
+        </thead>
+         <tbody>
+            <tr>
+                <td>january</td>
+                <td>31</td>
+            </tr>
+            <tr>
+                <td>fabruary</td>
+                <td>28</td>
+            </tr>
+            <tr>
+                <td>march</td>
+                <td>31</td>
+            </tr>
+            <tr>
+                <td>april</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>may</td>
+                <td>31</td>
+            </tr>
+            <tr>
+                <td>june</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>july</td>
+                <td>31</td>
+            </tr>
+            <tr>
+                <td>august</td>
+                <td>31</td>
+            </tr>
+            <tr>
+                <td>september</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>octuber</td>
+                <td>31</td>
+            </tr>
+            <tr>
+                <td>november</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>december</td>
+                <td>31</td>
+            </tr>
+         </tbody>
+         <tfoot style="color:rgb(14, 13, 13);">
+            <tr style="background-color:rgb(199, 245, 32);">
+                <td>sum</td>
+                <td>365</td>
+            </tr>
+         </tfoot>
+    </table>
+</body>
+</html>
