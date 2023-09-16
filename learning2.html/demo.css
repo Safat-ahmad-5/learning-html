@@ -1,0 +1,7 @@
+body{
+    background-color: pink;
+}
+button{
+    text-transform: capitalize;
+    color: rgb(72, 255, 0);
+}
