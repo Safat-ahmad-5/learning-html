@@ -6,17 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <h2>JavaScript Number Methods</h2>
+    <h2>The toExponential() Method</h2>
     <p id="demo"></p>
+
     <script>
-        let x = 34.782;
+
+        let x = 3.239;
         document.getElementById("demo").innerHTML =
-        x.toFixed(0) + "<br>" +
-        x.toFixed(2) + "<br>" +
-        x.toFixed(4) + "<br>" +
-        x.toFixed(6) + "<br>" +
-        x.toFixed(9) ;
+            x.toExponential() + "<br>" +
+            x.toExponential(2) + "<br>" +
+            x.toExponential(4) + "<br>" +
+            x.toExponential(6);
+
     </script>
 </body>
+
 </html>
