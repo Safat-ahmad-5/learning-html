@@ -10,11 +10,22 @@
 <body>
     <h1>JavaScript String Methods</h1>
     <p>The substring() method extract a part of a string and returns the extracted parts in a new string:</p>
-     <p id ="demo"></p>
-     <script>
+    <p id="demo"></p>
+    <script>
+        /*let str = "Apple, Banana, Mango, Grapes";
+        document.getElementById("demo").innerHTML = str.substring(6, 13);*/
+
+        /* let str = "Apple, Banana, Mango, Grapes";
+         document.getElementById("demo").innerHTML = str.substr(6, 14);*/
+
+        /*let str = "Apple, Banana, Mango, Grapes";
+        document.getElementById("demo").innerHTML = str.substr(6);*/
+
         let str = "Apple, Banana, Mango, Grapes";
-        document.getElementById("demo").innerHTML = str.substring(6, 13);
-     </script>
+        document.getElementById("demo").innerHTML = str.substr(-7);
+
+
+    </script>
 </body>
 
 </html>
